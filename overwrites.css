@@ -1,0 +1,53 @@
+.reveal h1 {
+  font-size: 3.1em;
+}
+
+.reveal h2 {
+  font-size: 2.0em;
+}
+
+.reveal h3 {
+  font-size: 1.3em;
+}
+
+.reveal blockquote {
+  box-shadow: none;
+  border-left: 5px solid blue;
+}
+
+.reveal img.borderless {
+  border: none;
+  box-shadow: none;
+  background: none
+}
+
+.reveal section[data-background] h1, .reveal section[data-background] h2, .reveal  section[data-background] h3 {
+  opacity: 0.85;
+  color: white;
+  text-shadow:
+    3px  3px  0 #000,
+    -1px -1px 0 #000,
+    1px -1px  0 #000,
+    -1px 1px  0 #000,
+    1px  1px  0 #000;
+}
+
+.reveal section[data-background] li {
+  color: #FFF;
+}
+
+/* .reveal li {
+  font-size: 50px;
+} */
+
+
+.image_caption {
+  font-style: italic;
+  font-size: 16px;
+  position: relative;
+  top: -40px;
+}
+
+.reveal pre code {
+  max-height: 600px;
+}
